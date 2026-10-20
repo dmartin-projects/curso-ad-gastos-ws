@@ -1,0 +1,12 @@
+<h1>Gastos</h1>
+<gui-tarjeta>
+  <h2 tarjeta-titulo>Nuevo gasto</h2>
+  <gui-selector-categoria [opciones]="categorias" [(value)]="categoria" />
+  <p class="adjunto">Ticket adjunto: {{ 254000 | tamanoArchivo }}</p>
+</gui-tarjeta>
+<gui-grafico
+  tipo="doughnut"
+  [datos]="datos"
+  etiqueta="Gastos por categoría"
+  style="height: 200px"
+/>

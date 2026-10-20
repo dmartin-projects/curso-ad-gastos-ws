@@ -3,6 +3,10 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@gastos/ui": ["./dist/libs/gastos-ui"],
+      "@gastos/ui/*": ["./dist/libs/gastos-ui/*"]
+    },
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
@@ -19,5 +23,25 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/gastos/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/gastos/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/soporte/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/soporte/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/gastos/ui/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/gastos/ui/tsconfig.spec.json"
+    }
+  ]
 }

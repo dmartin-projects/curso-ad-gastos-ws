@@ -1,0 +1,18 @@
+{
+  "name": "@gastos/ui",
+  "version": "0.2.0",
+  "peerDependencies": {
+    "@angular/common": "^22.2.0",
+    "@angular/core": "^22.2.0",
+    "chart.js": "^4.4.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "peerDependenciesMeta": {
+    "chart.js": {
+      "optional": true
+    }
+  }
+}
